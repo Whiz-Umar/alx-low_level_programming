@@ -1,25 +1,24 @@
 #include "main.h"
 
 /**
-* main  - prints -putchar to the standard output
+* main - Prints '_putchar' to stdout
 *
-* return - Returns 0 (Success)
+* Return: 0 (Success)
 *
 */
 
 int main(void)
 {
+	_putchar('_');
+	_putchar('p');
+	_putchar('u');
+	_putchar('t');
+	_putchar('c');
+	_putchar('h');
+	_putchar('a');
+	_putchar('r');
+	_putchar('\n');
 
-_putchar('_');
-_putchar('p');
-_putchar('u');
-_putchar('t');
-_putchar('c');
-_putchar('h');
-_putchar('a');
-_putchar('r');
-_putchar('\n');
-
-return (0);
+	return (0);
 
 }
