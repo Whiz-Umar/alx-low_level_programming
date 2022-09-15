@@ -1,3 +1,4 @@
+#ifndef HEADER_FILE
 #define HEADER_FILE
 
 int _putchar(char);
@@ -26,3 +27,8 @@ void print_to_98(int n);
 
 void print_times_table(int n);
 
+void printSpace(int n);
+
+void printInt(int n);
+
+#endif
