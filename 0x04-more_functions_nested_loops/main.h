@@ -26,7 +26,7 @@ void print_triangle(int size);
 
 void print_number(int n);
 
-
+int to_power(int n, int base);
 
 
 #endif
