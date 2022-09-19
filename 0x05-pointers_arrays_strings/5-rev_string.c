@@ -12,10 +12,10 @@ void rev_string(char *s)
 {
 	int counter = _strlen(s) - 1; char tmp;
 
-	while (s[counter] >= 0)
+	while (s[counter--] >= 0)
 	{
 		tmp = s[counter]; /*_putchar(s[counter]);*/
-		/*counter--;*/ s[counter--] = tmp; continue;
+		counter--; s[counter--] = tmp; continue;
 	}
 	/*_putchar('\n');*/
 }
