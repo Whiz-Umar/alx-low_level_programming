@@ -21,6 +21,7 @@ int main(void)
 		printf("%c", passwd[12]);
 		total -= passwd[12];
 	}
+printf("%c", total);
 
 	return (0);
 }
