@@ -15,9 +15,9 @@ int main(void)
 	int total;
 
 	srand(time(0));
-	for (counter = 0, total = 3333; total > 127; counter++)
+	for (counter = 0, total = 2772; total > 122; counter++)
 	{
-		passwd = (rand() % 127) + 1;
+		passwd = (rand() % 125) + 1;
 		printf("%c", passwd);
 		total -= passwd;
 	}
