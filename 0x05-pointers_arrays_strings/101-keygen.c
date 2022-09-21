@@ -10,16 +10,16 @@
   
 int main(void)
 {
-	int passwd;
+	int passwd[12];
 	int counter;
 	int total;
 
-	srand(time(0));
+	srand(time(NULL));
 	for (counter = 0, total = 2772; total > 122; counter++)
 	{
-		passwd = (rand() % 125) + 1;
-		printf("%c", passwd);
-		total -= passwd;
+		passwd[12] = (rand() % 125) + 1;
+		printf("%c", passwd[12]);
+		total -= passwd[12];
 	}
 
 	return (0);
