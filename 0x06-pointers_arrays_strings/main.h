@@ -36,6 +36,8 @@ int _islower(int c);
 
 int to_power(int n, int base);
 
+void rev_string(char *n);
+
 
 
 
