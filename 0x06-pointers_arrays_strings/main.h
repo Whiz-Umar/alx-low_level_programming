@@ -28,6 +28,10 @@ void print_buffer(char *b, int size);
 
 int _strlen(char *s);
 
+int is_delimiter(char c);
+
+int _islower(int c);
+
 
 
 
