@@ -1,7 +1,7 @@
 /**
  * _memset - fills memory with a constant byte
  *
- @s: char type pointer to memory
+ * @s: char type pointer to memory
  * @b: byte to be used in filling s
  * @n: size of memory area of s to be filled
  *
