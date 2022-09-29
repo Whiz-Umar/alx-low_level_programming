@@ -24,6 +24,8 @@ int wildcmp(char *s1, char *s2);
 
 int _sqrt(int a, int b);
 
+int _is_prime(int n, int x);
+
 
 
 
