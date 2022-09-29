@@ -47,7 +47,7 @@ int _compare(char *s, int start, int end)
 /**
  * _strlen - returns the length of a string
  *
- * @s: The string to compute its length 
+ * @s: The string to compute its length
  *
  * Return: int
  */
