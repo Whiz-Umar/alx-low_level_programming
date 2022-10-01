@@ -3,10 +3,10 @@
 #include <stdlib.h>
 
 /**
- * main - a program that prints the minimum number
- * of coins to make change for an amount of money.
- * @argc: The argument count
- * @argv: The argument vector pointer
+ * main - prints the minimum number of coins to be changed
+ *
+ * @argc: argument counter
+ * @argv: argument vector
  *
  * Return: 0 on success, 1 otherwise
  */
@@ -36,8 +36,9 @@ int main(int argc, char *argv[])
 }
 
 /**
- * change - Compute change
- * @cents: The number of cents
+ * change - compute change
+ *
+ * @cents: number of cents
  *
  * Return: int
  *
