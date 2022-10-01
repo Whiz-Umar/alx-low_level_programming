@@ -7,10 +7,12 @@
  * @argc: argument counter
  * @argv: argument vector
  *
+ * Return: 0
  */
 
 int main(int argc, char  *argv[])
 {
-	printf("My name is %d\n", argc);
+	argc = argc;
+printf("My name is %d\n", argv[0]);
 	return 0;
 }
