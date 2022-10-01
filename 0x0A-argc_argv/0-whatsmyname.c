@@ -12,7 +12,7 @@
 
 int main(int argc, char  *argv[])
 {
-	argc = argc;
+	(void)argc;
 printf("My name is %s\n", argv[0]);
 	return (0);
 }
