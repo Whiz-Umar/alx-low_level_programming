@@ -11,7 +11,7 @@
 
 int main(int argc, char  *argv[])
 {
-	(void)argc;
+	int i = argc - argc;
 printf("My name is %s\n", argv[0]);
 	return (0);
 }
