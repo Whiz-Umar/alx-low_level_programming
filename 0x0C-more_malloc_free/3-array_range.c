@@ -8,7 +8,7 @@
  * @max: maximum integer
  *
  * Return: the pointer to the newly created array,
- * Or NULL if malloc fails 
+ * Or NULL if malloc fails
  * Or min is greater than max
  */
 
